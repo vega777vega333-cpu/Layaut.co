@@ -1,0 +1,81 @@
+.section {
+    margin-top: 48px;
+    padding-bottom: 64px;
+}
+
+.subSection {
+    margin-top: 32px;
+}
+
+.section span {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.section h3 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: normal;
+    margin-top: 24px;
+}
+
+.section p {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.section ul {
+    margin-top: 16px;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.section ul li {
+    margin-top: 8px;
+}
+
+.section pre {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 16px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+.section strong {
+    font-weight: 600;
+    margin-top: 16px;
+    display: block;
+}
+
+@media (max-width: 800px) {
+    .section h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .section span, .section p, .section ul {
+        font-size: 14px;
+    }
+
+    .section pre {
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .section code {
+        font-size: 12px;
+    }
+}

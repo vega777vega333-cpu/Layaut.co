@@ -58,6 +58,10 @@
         {
           "text": "How to use this theme",
           "link": "/how-to-use"
+        },
+        {
+          "text": "Security Testing",
+          "link": "/security-testing"
         }
       ]
     }
